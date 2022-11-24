@@ -1,10 +1,6 @@
-import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
+import { Router } from "./router/Router";
 import "./styles.css";
 
 export default function App() {
-  return (
-    <div className="App">
-      <PrimaryButton>テスト</PrimaryButton>
-    </div>
-  );
+  return <Router />;
 }
